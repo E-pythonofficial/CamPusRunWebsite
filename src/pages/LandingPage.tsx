@@ -25,7 +25,7 @@ import {
   Star,
   Accessibility
 } from 'lucide-react';
-import { SiInstagram, SiX } from '@icons-pack/react-simple-icons';
+import { SiInstagram, SiX, SiSnapchat } from '@icons-pack/react-simple-icons';
 
 // ─── TOKENS ──────────────────────────────────────────────────────────────────
 const C = {
@@ -711,6 +711,14 @@ export default function LandingPage() {
             className="w-10 h-10 border rounded-full flex items-center justify-center transition-all hover:opacity-80"
             style={{ borderColor: C.navyLight, color: '#dde3ed' }}>
             <SiX size={16} />
+            </a>
+
+            <a href="https://www.snapchat.com/add/crsupport"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 border rounded-full flex items-center justify-center transition-all hover:opacity-80"
+            style={{ borderColor: C.navyLight, color: '#dde3ed' }}>
+            <SiSnapchat size={16} />
             </a>
         </div>
             </div>
