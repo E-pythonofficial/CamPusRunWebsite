@@ -158,10 +158,10 @@ export default function LandingPage() {
   ];
 
   const team = [
-    { name: 'Korede',    role: 'Support Lead I',          phone: '2347079955201' },
-    { name: 'Aitee',    role: 'Support Lead II',  phone: '2348060205010' },
-    { name: 'David', role: 'Support Lead III',        phone: '2348039867195' },
-    { name: 'Subomi', role: 'Support Lead IV',        phone: '2348039867195' }
+    { name: 'Korede',    role: 'Support Lead I'},
+    { name: 'Aitee',    role: 'Support Lead II'},
+    { name: 'David', role: 'Support Lead III' },
+    { name: 'Subomi', role: 'Support Lead IV' }
   ];
 
   return (
@@ -655,10 +655,11 @@ export default function LandingPage() {
                   </div>
                   <h4 className="font-display text-3xl tracking-wide mb-1" style={{ color: C.navy }}>{rep.name.toUpperCase()}</h4>
                   <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-8" style={{ color: C.muted }}>{rep.role}</p>
-                  <a href={`https://wa.me/${rep.phone}`}
-                    className="inline-flex items-center gap-3 text-white px-8 py-4 rounded-xl font-bold uppercase tracking-wider text-xs transition-all hover:opacity-90"
-                    style={{ background: C.navy }}>
-                    WhatsApp <MessageCircle size={15} />
+                  <a   href={`https://www.snapchat.com/add/crsupport`}
+                      target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-3 text-white px-8 py-4 rounded-xl font-bold uppercase tracking-wider text-xs transition-all hover:opacity-90"
+                      style={{ background: C.navy }}>
+                      Snapchat <MessageCircle size={15} />
                   </a>
                 </motion.div>
               ))}
